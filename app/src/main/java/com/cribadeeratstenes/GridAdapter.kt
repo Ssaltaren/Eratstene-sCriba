@@ -59,7 +59,7 @@ class GridAdapter(context: Context, arrayList: ArrayList<Int>) : BaseAdapter() {
     private fun multipliesOfThree(number: Int, rootView:View){
 
         if (number !=3 && number%3==0){
-            rootView.setBackgroundColor(R.color.orange)
+            rootView.setBackgroundColor(context.getColor(R.color.orange))
         }
     }
 
